@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import CartIcon from "./CartIcon";
 import "./Nav.css";
 
 const Nav = () => {
@@ -12,7 +13,9 @@ const Nav = () => {
         <div className="links">
           <Link to="/">Home</Link>
           <Link to="/shop">Shop</Link>
-          <Link to="/cart">CartICON</Link>
+          <Link to="/cart">
+            <CartIcon />
+          </Link>
         </div>
       </div>
     </div>
